@@ -10,10 +10,13 @@
 		FFC303722B6A25780087FE50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC303712B6A25780087FE50 /* AppDelegate.swift */; };
 		FFC303742B6A25780087FE50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC303732B6A25780087FE50 /* SceneDelegate.swift */; };
 		FFC303762B6A25780087FE50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC303752B6A25780087FE50 /* ViewController.swift */; };
-		FFC303792B6A25780087FE50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC303772B6A25780087FE50 /* Main.storyboard */; };
 		FFC3037C2B6A25780087FE50 /* InstaPage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FFC3037A2B6A25780087FE50 /* InstaPage.xcdatamodeld */; };
 		FFC3037E2B6A257D0087FE50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFC3037D2B6A257D0087FE50 /* Assets.xcassets */; };
 		FFC303812B6A257D0087FE50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC3037F2B6A257D0087FE50 /* LaunchScreen.storyboard */; };
+		FFC303932B6A33080087FE50 /* InstaDesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC303922B6A33080087FE50 /* InstaDesignView.swift */; };
+		FFC303952B6A34140087FE50 /* InstaDesignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC303942B6A34140087FE50 /* InstaDesignViewController.swift */; };
+		FFC303972B6A34F60087FE50 /* GalleryCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC303962B6A34F60087FE50 /* GalleryCollectionView.swift */; };
+		FFC303992B6A842D0087FE50 /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC303982B6A842D0087FE50 /* GalleryCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +24,14 @@
 		FFC303712B6A25780087FE50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFC303732B6A25780087FE50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FFC303752B6A25780087FE50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FFC303782B6A25780087FE50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFC3037B2B6A25780087FE50 /* InstaPage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InstaPage.xcdatamodel; sourceTree = "<group>"; };
 		FFC3037D2B6A257D0087FE50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFC303802B6A257D0087FE50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFC303822B6A257D0087FE50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFC303922B6A33080087FE50 /* InstaDesignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaDesignView.swift; sourceTree = "<group>"; };
+		FFC303942B6A34140087FE50 /* InstaDesignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaDesignViewController.swift; sourceTree = "<group>"; };
+		FFC303962B6A34F60087FE50 /* GalleryCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionView.swift; sourceTree = "<group>"; };
+		FFC303982B6A842D0087FE50 /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +64,83 @@
 		FFC303702B6A25780087FE50 /* InstaPage */ = {
 			isa = PBXGroup;
 			children = (
-				FFC303712B6A25780087FE50 /* AppDelegate.swift */,
-				FFC303732B6A25780087FE50 /* SceneDelegate.swift */,
+				FFC3038A2B6A2EE90087FE50 /* Gobal */,
+				FFC3038F2B6A31850087FE50 /* Presentation */,
 				FFC303752B6A25780087FE50 /* ViewController.swift */,
-				FFC303772B6A25780087FE50 /* Main.storyboard */,
-				FFC3037D2B6A257D0087FE50 /* Assets.xcassets */,
+				FFC303942B6A34140087FE50 /* InstaDesignViewController.swift */,
 				FFC3037F2B6A257D0087FE50 /* LaunchScreen.storyboard */,
 				FFC303822B6A257D0087FE50 /* Info.plist */,
 				FFC3037A2B6A25780087FE50 /* InstaPage.xcdatamodeld */,
 			);
 			path = InstaPage;
+			sourceTree = "<group>";
+		};
+		FFC3038A2B6A2EE90087FE50 /* Gobal */ = {
+			isa = PBXGroup;
+			children = (
+				FFC3038B2B6A2EF10087FE50 /* Components */,
+				FFC3038C2B6A2F030087FE50 /* Utilies */,
+				FFC3038E2B6A2F390087FE50 /* App */,
+				FFC3038D2B6A2F210087FE50 /* Supports */,
+			);
+			path = Gobal;
+			sourceTree = "<group>";
+		};
+		FFC3038B2B6A2EF10087FE50 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FFC3038C2B6A2F030087FE50 /* Utilies */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilies;
+			sourceTree = "<group>";
+		};
+		FFC3038D2B6A2F210087FE50 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				FFC3037D2B6A257D0087FE50 /* Assets.xcassets */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		FFC3038E2B6A2F390087FE50 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FFC303712B6A25780087FE50 /* AppDelegate.swift */,
+				FFC303732B6A25780087FE50 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FFC3038F2B6A31850087FE50 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				FFC303902B6A31980087FE50 /* Model */,
+				FFC303912B6A31A00087FE50 /* View */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		FFC303902B6A31980087FE50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FFC303912B6A31A00087FE50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FFC303922B6A33080087FE50 /* InstaDesignView.swift */,
+				FFC303962B6A34F60087FE50 /* GalleryCollectionView.swift */,
+				FFC303982B6A842D0087FE50 /* GalleryCollectionViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +203,6 @@
 			files = (
 				FFC303812B6A257D0087FE50 /* LaunchScreen.storyboard in Resources */,
 				FFC3037E2B6A257D0087FE50 /* Assets.xcassets in Resources */,
-				FFC303792B6A25780087FE50 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +213,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFC303972B6A34F60087FE50 /* GalleryCollectionView.swift in Sources */,
+				FFC303992B6A842D0087FE50 /* GalleryCollectionViewCell.swift in Sources */,
 				FFC303762B6A25780087FE50 /* ViewController.swift in Sources */,
 				FFC303722B6A25780087FE50 /* AppDelegate.swift in Sources */,
+				FFC303952B6A34140087FE50 /* InstaDesignViewController.swift in Sources */,
 				FFC3037C2B6A25780087FE50 /* InstaPage.xcdatamodeld in Sources */,
 				FFC303742B6A25780087FE50 /* SceneDelegate.swift in Sources */,
+				FFC303932B6A33080087FE50 /* InstaDesignView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FFC303772B6A25780087FE50 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FFC303782B6A25780087FE50 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FFC3037F2B6A257D0087FE50 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -301,7 +369,6 @@
 				INFOPLIST_FILE = InstaPage/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -329,7 +396,6 @@
 				INFOPLIST_FILE = InstaPage/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
