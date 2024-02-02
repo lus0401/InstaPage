@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         window = UIWindow(frame: UIScreen.main.bounds)
         
-        let viewController = InstaDesignViewController() // 처음에 보일 view controller
+        let viewController = ViewController() //InstaDesignViewController() // 처음에 보일 view controller
         
         window?.rootViewController = viewController // 위에서 만든 view controller를 첫 화면으로 띄우기
         
